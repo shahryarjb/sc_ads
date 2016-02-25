@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="plugin" group="content" method="upgrade">
+        <name>SCAds</name>
+        <author>mojtaba naserei</author>
+        <creationDate>Sep 2015</creationDate>
+        <copyright>seocommunity.ir</copyright>
+        <license>http://www.gnu.org/licenses/gpl-3.0.en.html</license>
+        <authorEmail>mojtaba.naserei@yahoo.com</authorEmail>
+        <authorUrl>http://www.seocommunity.ir</authorUrl>
+        <version>1.0.0</version>
+        <description><![CDATA[SCADS_DESC]]></description>
+        <files>
+                <filename plugin="SCAds">SCAds.php</filename>
+                <filename plugin="SCAds">index.html</filename>
+        </files>
+          <languages>
+           <language tag="en-GB">language/en-GB/en-GB.plg_content_SCAds.ini</language>
+	       <language tag="en-GB">language/en-GB/en-GB.plg_content_SCAds.sys.ini</language>
+           <language tag="fa-IR">language/fa-IR/fa-IR.plg_content_SCAds.ini</language>
+	       <language tag="fa-IR">language/fa-IR/fa-IR.plg_content_SCAds.sys.ini</language>
+	     </languages>
+        <config>
+		 <fields name="params">
+			<fieldset name="basic">
+				<field name="wcount" type="text" default="50" label="SCADS_MSG_LABEL" description="SCADS_MSG_DESC" size="5" />
+				
+			</fieldset>
+		 </fields>
+       </config>
+
+</extension>
